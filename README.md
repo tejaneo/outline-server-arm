@@ -16,7 +16,7 @@ For all intents and purposes, I've no affiliation with Jigsaw or Outline. I don'
 Instead of the default installation command, run:
 
 ```bash
-sudo bash -c "SB_IMAGE=mneveroff/outline-server-arm:latest $(wget -qO- https://raw.githubusercontent.com/MNeverOff/outline-server-arm/master/src/server_manager/install_scripts/install_server.sh)"
+sudo bash -c "SB_IMAGE=tejaneo/outline-server-arm:latest $(wget -qO- https://github.com/tejaneo/outline-server-arm/blob/f898bcb4c10ed26aa9b7f3291dc0873563dd631c/src/server_manager/install_scripts/install_server.sh)"
 ```
 
 You should see Watchtower and Outline Server containers running on your machine:
